@@ -1,7 +1,7 @@
-a=input()
-if a.isalpha():
-  print ("invalid")
+z=input()
+if z.isalpha():
+    print ("invalid")
 else:
-  a=int(a):
-  for i in range(a):
-    print("hello")
+    z=int(z)
+    for o in range(z):
+        print ("Hello")
