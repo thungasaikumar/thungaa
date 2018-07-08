@@ -1,4 +1,4 @@
-a=int(input("enter a number:\n"))
+a=input()
 s=0
 while(a>0):
     s=s+a
