@@ -2,7 +2,7 @@ x=input()
 if x.isalpha():
     print("Invalid")
 else:
-    a=int(a)
+    x=int(x)
     c=0
     while x!=0:
         x=int(x/10)
