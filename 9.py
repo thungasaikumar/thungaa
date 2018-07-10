@@ -1,12 +1,12 @@
-N=input()
-K=input()
-sum=0
-if N.isalpha() or K.isalpha():
+x=input()
+y=input()
+s=0
+if x.isalpha() or y.isalpha():
     print("Invalid")
 else:
-    N=int(N)
-    K=int(K)
-    arr=[int(input()) for _ in range(N)]
-    for i in range(K):
-        sum=sum+arr[i]
-    print(sum)
+    x=int(x)
+    y=int(y)
+    arr=[int(input()) for _ in range(x)]
+    for i in range(y):
+        s=s+arr[i]
+    print(s)
