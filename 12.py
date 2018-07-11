@@ -1,11 +1,11 @@
-n=int(input())
-b=n
+a=int(input())
+x=a
 c=0
-while(b!=0):
-    d=b%10
+while(x!=0):
+    d=x%10
     c=(c*10)+d
-    b=int(b/10)
-if(n==c):
+    x=int(x/10)
+if(a==c):
     print("yes")
 else:
     print("no")    
