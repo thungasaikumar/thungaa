@@ -5,7 +5,6 @@ while(b!=0):
     d=b%10
     c=c+(d*d*d)
     b=int(b/10)
-print(c)
 if(n==c):
     print("yes")
 else:
