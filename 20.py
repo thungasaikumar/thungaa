@@ -1,3 +1,6 @@
 n=int(input())
 for i in range(1,6):
-    print(n*i,end=' ')
+    if i==5:
+    	print(n*i)
+    else:
+    	print(n*i,end=' ')
