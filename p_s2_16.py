@@ -1,5 +1,8 @@
 n=int(input())
-a=[int(i) for i in input().split()]
+a=[0,0,0,0,0,0,0,0,0,0,0]
+for i in range(0,n):
+    a[i]=input()
+# a=[int(i) for i in input().split()]
 # c=0
 for i in range(0,n):
     c=0
