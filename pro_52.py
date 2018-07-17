@@ -14,7 +14,7 @@ for i in range(0,4):
            y[i]=0
            y[j]=0
 for i in range(0,4):
-    if(int(x[i]!=0)) or int(y[j]!=0):
+    if int(x[i]!=0) or int(y[i]!=0):
     	c=c+1
 if(c==0):
     print("yes")
